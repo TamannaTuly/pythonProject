@@ -233,32 +233,42 @@
 # if is_raining:
 #     print("ok")
 
-rain = True
-cold = False
-sunny = False
-# if rain:
-#     print("Bring an umbrella!")
-# else:
-#     print("Bring an umbrella for protecting yourself from sun")
-# if rain and cold:
-#     print('Rain & cold')
-# else:
-#     print('Not raining neither cold')
+# rain = True
+# cold = False
+# sunny = False
+# # if rain:
+# #     print("Bring an umbrella!")
+# # else:
+# #     print("Bring an umbrella for protecting yourself from sun")
+# # if rain and cold:
+# #     print('Rain & cold')
+# # else:
+# #     print('Not raining neither cold')
+# #
+# # if rain or cold:
+# #     print('Rain & cold')
+# # else:
+# #     print('Not raining neither cold')
 #
-# if rain or cold:
-#     print('Rain & cold')
+# # elif
+# if sunny:
+#     print("Apply sun block")
+# elif rain and cold :
+#     print("Bring umbrella and jacket")
+# elif rain and not (cold):
+#     print("Bring umbrella")
+# elif not (rain) and cold:
+#     print("Bring jacket")
 # else:
-#     print('Not raining neither cold')
+#     print("Enjoy the weather!!!!!")
 
-# elif
-if sunny:
-    print("Apply sun block")
-elif rain and cold :
-    print("Bring umbrella and jacket")
-elif rain and not (cold):
-    print("Bring umbrella")
-elif not (rain) and cold:
-    print("Bring jacket")
+# credit card company: let user to pay using credit card without PIN under transaction of amount 50bucks
+
+amount = 50
+if amount <= 50:
+    print('Purchase approved !!')
 else:
-    print("Enjoy the weather!!!!!")
+    print("Please enter your pin : ")
+
+
 
