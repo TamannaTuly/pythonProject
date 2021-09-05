@@ -1,32 +1,15 @@
+month = input('Enter the month name with first 3 words : ').lower()
 
+def num_days(month='jan'):
 
-def num_days(month):
-
-    if month == 'jan':
+    if month == 'jan' or month=='dec' or month=='oct' or month=='aug' or month == 'jul' or month=='may' or month=='mar':
         print('number of days in',month,'is',31)
     elif month == 'feb':
         print('number of days in',month,'is',28)
-    elif month == 'mar':
-        print('number of days in',month,'is',31)
-    elif month == 'apr':
+    elif month == 'apr' or month == 'jun' or month == 'sep' or month == 'nov':
         print('number of days in',month,'is',30)
-    elif month == 'may':
-        print('number of days in',month,'is',31)
-    elif month == 'jun':
-        print('number of days in',month,'is',30)
-    elif month == 'jul':
-        print('number of days in',month,'is',31)
-    elif month == 'aug':
-        print('number of days in',month,'is',31)
-    elif month == 'sep':
-        print('number of days in',month,'is',30)
-    elif month == 'oct':
-        print('number of days in',month,'is',31)
-    elif month == 'nov':
-        print('number of days in',month,'is',30)
-    elif month == 'dec':
-        print('number of days in',month,'is',31)
-
-num_days('oct')
+    else:
+        print('Invalid month name')
+num_days(month)
 # optimize/shorten the code in the function
 # try to reduce the number of conditionals
