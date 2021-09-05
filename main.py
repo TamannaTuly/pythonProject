@@ -264,11 +264,14 @@
 
 # credit card company: let user to pay using credit card without PIN under transaction of amount 50bucks
 
-amount = 50
-if amount <= 50:
-    print('Purchase approved !!')
-else:
-    print("Please enter your pin : ")
+# amount = 50
+# if amount <= 50:
+#     print('Purchase approved !!')
+# else:
+#     print("Please enter your pin : ")
+
+
+
 
 
 
