@@ -1,6 +1,6 @@
 month = input('Enter the month name with first 3 words : ').lower()
 
-def num_days(month='jan'):
+def num_days(month='feb'):
 
     # if month == 'jan' or month=='dec' or month=='oct' or month=='aug' or month == 'jul' or month=='may' or month=='mar':
     #     print('number of days in',month,'is',31)
