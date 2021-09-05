@@ -22,8 +22,9 @@ def division_operation(a, b):
     c = int(a) / int(b);
     print(f"your result for division operation is {c}");
 
-def temp(celceous):
-    temp = int(celceous * 9 / 5 + 32)
+def temperature(celceous):
+    temp = float(celceous * 9 / 5 + 32)
+    print(f"your temperature is : {temp}F")
 
 print(f"Chooce your prefered calculator :\n1. Calculator\n2. Temperatur")
 d =input('enter any optin(only number): ')
@@ -50,10 +51,9 @@ if d=='1':
     else:
         print("invalid choice")
 elif d=='2':
-    celceous=input('enter celcesous: ')
-    if celceous> '0':
-
-            print(f"your temperature is : {temp}")
+    celceous=float(input('enter celcesous: '))
+    if celceous> 0:
+        temperature(celceous)
     else:
         print('Please enter valid temperature in C')
 
