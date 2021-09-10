@@ -270,7 +270,24 @@
 # else:
 #     print("Please enter your pin : ")
 
+# Three Loop Questions:
+#1. What do I want to repeat?
+#  -> message
+#2. What do I want to change each time?
+#  -> stars
+#3. How long should we repeat?
+#  -> 5 times
+# while loop
 
+i=0
+while i<5:
+    i+=1
+    print("*"*i)
+    # print("{i}." + "*" * i + "Loops are awesome" + "*" * i * 2)
+j=5
+while j>=1:
+    j-=1
+    print("*"*j)
 
 
 
