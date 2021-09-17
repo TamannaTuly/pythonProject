@@ -279,16 +279,69 @@
 #  -> 5 times
 # while loop
 
-i=0
-while i<5:
-    i+=1
-    print("*"*i)
-    # print("{i}." + "*" * i + "Loops are awesome" + "*" * i * 2)
-j=5
-while j>=1:
-    j-=1
-    print("*"*j)
+# i=0
+# while i<5:
+#     i+=1
+#     print("*"*i)
+#     # print("{i}." + "*" * i + "Loops are awesome" + "*" * i * 2)
+# j=5
+# while j>=1:
+#     j-=1
+#     print("*"*j)
 
 
+# for letter in 'tamanna tuly':
+#     print(letter)
+#
+# for tamma in 'test':
+#     print(tamma)
+#
+# for test in range(8):
+#     print(test)
 
+# friends = ['tala','tuly','tamanna','tuly']
+# for name in range(len(friends)):
+# # for name in friends:
+#     print(name)
+#
+# for friends in friends:
+#     if friends=='tuly':
+#         print('found '+friends)
+#         # break
+#         # continue
+#     print(friends)
 
+# friendList=['tamanna','tuly','test','mia']
+# for friendList in friendList:
+#     for number in (1,2,3):
+#         print(friendList,number)
+
+# range =[1,2,3,4]
+# # name=['tama','b']
+# for range in range:
+#     for name in ['taman','b']:
+#         print(range,name)
+
+# problem
+# names = ['john ClEEse','Eric IDLE','michael']
+# names1 = ['graHam chapman', 'TERRY', 'terry jones']
+names=['tuly','a']
+names1=['b','c']
+# nameadd=input('enter last name : ')
+# nameadd1=input('enter last name : ')
+# names.append(nameadd)
+# # print(names)
+# names1.append(nameadd1)
+# # print(names1)
+names.extend(names1)
+# print(names)
+for size in range(2):
+    names.append(input('name : '))
+for friend in names:
+    print(f"{friend.capitalize()} invited!")
+
+# for letter in names:
+#     for metter in names1:
+#         print(f"here's {metter} test")
+#         break
+#     print(f"there's {letter} test")
