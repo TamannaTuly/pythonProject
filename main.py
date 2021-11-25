@@ -251,14 +251,44 @@ sunny = False
 #     print('Not raining neither cold')
 
 # elif
-if sunny:
-    print("Apply sun block")
-elif rain and cold :
-    print("Bring umbrella and jacket")
-elif rain and not (cold):
-    print("Bring umbrella")
-elif not (rain) and cold:
-    print("Bring jacket")
-else:
-    print("Enjoy the weather!!!!!")
+# if sunny:
+#     print("Apply sun block")
+# elif rain and cold :
+#     print("Bring umbrella and jacket")
+# elif rain and not (cold):
+#     print("Bring umbrella")
+# elif not (rain) and cold:
+#     print("Bring jacket")
+# else:
+#     print("Enjoy the weather!!!!!")
+#
+# enumerate this!
 
+# friends=['tuly', 'test','modena','tarr']
+# i=1
+# for friend in friends:
+#     print(i,friend)
+#     i=i+1
+# start with a 0
+# f = ['tuly','tamanna','test','mest']
+#
+# for num, friend in enumerate(f):
+#     print(num,friend)
+# start with a 1
+# f = ['tuly','tamanna','test','mest']
+#
+# for num, friend in enumerate(f,1):
+#     print(num,friend)
+
+
+f = ['tuly','tamanna','test','mest']
+ef=[(1,'tuly'),(2,'best'),(3,'test')]
+for num, friend in enumerate(f,1):
+    print(num,friend)
+for friend in enumerate(f,1):
+    print(friend)
+for friend in enumerate(enumerate(f,1),1):
+    print(friend)
+
+print(type(enumerate(f)))
+print(list(enumerate(f)))
