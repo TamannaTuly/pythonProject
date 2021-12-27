@@ -22,9 +22,18 @@ char.update({
     'idUpdated' : {10,22,1402037}
 })
 char['firstName']='tamanna'
-print(char.get('firstName'))
-print(char)
+# print(char)
 name = char.pop('name')#will delete name but save the name value in variable name
 # del char['name']#delete name
 print(char)
-print(name)
+# print(name)
+# print(f'length of the dictionary is : {len(char)}')
+# print(char.keys())
+# print(char.values())
+# print(char.items())#will show result in tuples
+
+# for keys in char :
+#     print(keys)
+
+for keys,values in char.items() :
+    print(keys,values)
